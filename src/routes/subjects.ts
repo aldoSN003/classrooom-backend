@@ -64,7 +64,7 @@ router.get('/', async (req, res) => {
 
 
     } catch (e) {
-        console.log(`GET /subjectes error: ${e}`);
+        console.log(`GET /subjects error: ${e}`);
         res.status(500).json(
             {error: "Failed to fetch subjects"});
     }
